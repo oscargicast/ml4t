@@ -1,0 +1,6 @@
+{
+  "name": "Machine Learning for Trading (ML4T)",
+  "tagline": "Demo code of the course Machine Learning For Trading",
+  "body": "# Machine Learning for Trading Sample Code\r\n\r\nThe code develop in this repo is from course at [UDACITY offered at Georgia Tech as CS 7646](http://www.udacity.com/course/machine-learning-for-trading--ud501)\r\n\r\n\r\n## Outline\r\n\r\nI sorted the code develop in each chapter of this course here:\r\n\r\n- [Chapter 1](https://github.com/oskargicast/ml4t/tree/ch1)\r\n- [Chapter 2](https://github.com/oskargicast/ml4t/tree/ch2)\r\n- [Chapter 3](https://github.com/oskargicast/ml4t/tree/ch3)\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

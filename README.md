@@ -26,3 +26,5 @@ below are for your reference.
 ### Extra
 
 - [Working with multiple figures and axes in matplotlib](http://matplotlib.org/users/pyplot_tutorial.html#working-with-multiple-figures-and-axes)
+- [Stock split](http://www.sec.gov/answers/stocksplit.htm)
+- [Dividends issued](https://investor.gov/glossary/glossary_terms/stock-split)

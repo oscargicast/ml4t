@@ -1,1 +1,1 @@
-# Machine Learning for Trading Sample Code
+# CHAPTER 2: Computational Investing 

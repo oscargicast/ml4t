@@ -22,3 +22,7 @@ below are for your reference.
   * [Plotting](http://pandas.pydata.org/pandas-docs/stable/visualization.html)
   * [pandas.DataFrame.plot](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html)
   * [matplotlib.pyplot.plot](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot)
+
+### Extra
+
+- [Working with multiple figures and axes in matplotlib](http://matplotlib.org/users/pyplot_tutorial.html#working-with-multiple-figures-and-axes)

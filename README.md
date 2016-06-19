@@ -1,1 +1,1 @@
-# Machine Learning for Trading Sample Code
+# CHAPTER 1: Manipulating Financial Data in Python 

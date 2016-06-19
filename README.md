@@ -1,1 +1,4 @@
-# CHAPTER 1: Manipulating Financial Data in Python 
+# [CHAPTER 1](https://github.com/oskargicast/ml4t/tree/ch1) - LESSON 1
+# Reading and Plotting stock data
+
+

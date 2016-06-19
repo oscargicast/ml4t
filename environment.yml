@@ -1,0 +1,7 @@
+name: ml4t
+dependencies:
+  - jupyter
+  - matplotlib
+  - pandas
+  - pip:
+    - ipdb

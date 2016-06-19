@@ -1,4 +1,0 @@
-PyQt5==5.6
-jupyter==1.0.0
-matplotlib==1.5.1
-pandas==0.18.1

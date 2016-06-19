@@ -1,16 +1,19 @@
-# CHAPTER 1
-## Manipulating Financial Data in Python
+# [CHAPTER 1](https://github.com/oskargicast/ml4t/tree/ch1) - LESSON 2
+## Working with multiple stocks 
 
-[:arrow_backward: Go back chapter list](https://github.com/oskargicast/ml4t)
+### Code samples 
 
-Outline:
+### Lesson outline
 
-- [x] [lesson 1](https://github.com/oskargicast/ml4t/tree/ch1-lesson1): Reading and Plotting stock data 
-- [ ] [lesson 2](https://github.com/oskargicast/ml4t/tree/ch1-lesson2): Working with multiple stocks
-- [ ] [lesson 3](https://github.com/oskargicast/ml4t/tree/ch1-lesson3): The power of NumPy
-- [ ] [lesson 4](https://github.com/oskargicast/ml4t/tree/ch1-lesson4): Statistical analysis of time series 
-- [ ] [lesson 5](https://github.com/oskargicast/ml4t/tree/ch1-lesson5): Incomplete data 
-- [ ] [lesson 6](https://github.com/oskargicast/ml4t/tree/ch1-lesson6): Histograms and scatter plots 
-- [ ] [lesson 7](https://github.com/oskargicast/ml4t/tree/ch1-lesson7): Sharpe ratio and other portfolio statistics
-- [ ] [lesson 8](https://github.com/oskargicast/ml4t/tree/ch1-lesson8): *Optimizers*. Building a parameterized model
-- [ ] [lesson 9](https://github.com/oskargicast/ml4t/tree/ch1-lesson9): *Optimizers*. How to optimize a portfolio 
+Here's an overview of what you'll learn to do in this lesson. Documentation links are for reference.
+
+- Read in multiple stocks:
+  * Create an empty [pandas.DataFrame](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) with dates as index: [pandas.date_range](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.date_range.html)
+  * Drop missing date rows: [pandas.DataFrame.dropna](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.dropna.html)
+  * Incrementally join data for each stock: [pandas.DataFrame.join](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.join.html)
+- Manipulate stock data:
+  * [Index and select data](http://pandas.pydata.org/pandas-docs/stable/indexing.html) by row (dates) and column (symbols)
+  * Plot multiple stocks at once (still using [pandas.DataFrame.plot](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html))
+  * Carry out arithmetic operations across stocks
+
+### Extra

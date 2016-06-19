@@ -1,6 +1,8 @@
 # CHAPTER 1
 ## Manipulating Financial Data in Python
 
+[:arrow_backward: Go back chapter list](https://github.com/oskargicast/ml4t)
+
 Outline:
 
 - [x] [lesson 1](https://github.com/oskargicast/ml4t/tree/ch1-lesson1): Reading and Plotting stock data 

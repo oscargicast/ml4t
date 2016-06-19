@@ -1,6 +1,6 @@
 # Machine Learning for Trading Sample Code
 
-The code develop in this repo is from course at [UDACITY offered at Georgia Tech as CS 7646](the://www.udacity.com/course/machine-learning-for-trading--ud501)
+The code develop in this repo is from course at [UDACITY offered at Georgia Tech as CS 7646](http://www.udacity.com/course/machine-learning-for-trading--ud501)
 
 
 ## Outline

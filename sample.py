@@ -8,6 +8,11 @@ def test_run():
     dates = pd.date_range(start_date, end_date)
     # Creates an empty data frame with dates as index.
     df1 = pd.DataFrame(index=dates)
+    # Reads SPY data into temporary dataframe.
+    dfSPY = pd.read_csv('data/SPY.csv')
+    # Joins the 2 dataframes using DataFrame.join().
+    # This is a left join by default.
+    df1 = df1.join(dfSPY)
     print(df1)
 
 

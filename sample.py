@@ -16,11 +16,15 @@ def test_run():
         usecols=['Date', 'Adj Close'],
         na_values=['nan'],
     )
-    # Joins the 2 dataframes using DataFrame.join().
-    # This is a left join by default.
-    df1 = df1.join(dfSPY)
-    # Drops NaN values.
-    df1 = df1.dropna()
+
+    # # Joins the 2 dataframes using DataFrame.join().
+    # # This is a left join by default.
+    # df1 = df1.join(dfSPY)
+    # # Drops NaN values.
+    # df1 = df1.dropna()
+
+    # The 2 steps above can be summed up like this:
+    df1 = df1.join(dfSPY, how='inner')
     print(df1)
 
 

@@ -9,7 +9,8 @@ def test_run():
     # Creates an empty data frame with dates as index.
     df1 = pd.DataFrame(index=dates)
     # Reads SPY data into temporary dataframe.
-    dfSPY = pd.read_csv('data/SPY.csv')
+    dfSPY = pd.read_csv('data/SPY.csv', index_col='Date', parse_dates=True)
+    print(dfSPY)
     # Joins the 2 dataframes using DataFrame.join().
     # This is a left join by default.
     df1 = df1.join(dfSPY)
